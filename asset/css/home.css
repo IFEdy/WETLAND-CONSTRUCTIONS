@@ -1,0 +1,207 @@
+body,html,span,ul,li,ol,div,strong,h3,h1,h2,h3,h4,h5,h6{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body {
+    height: 100%;
+    width: 100%;
+
+}
+.navbar {
+    min-height: auto !important;
+    margin-bottom: 0 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+h4 {
+    display: inline-block;
+}
+
+.navbar-nav {
+    margin-right: 50px !important;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url(../../images/maxresdefault.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 630px;
+}
+
+.jumbo-overlay {
+    width: inherit;
+    height: inherit;
+    background: rgba(0,0,0,.8);
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+
+.intro {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    width: 100%;
+    color: white;
+    margin-top:250px !important;
+}
+
+.jumbo-overlay h3 strong {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-style: normal;
+    color: steelblue;
+}
+.intro h3{
+    font-size: 40px;
+}
+.intro p{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+
+.navbar {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    border: 0 !important;
+    background: rgba(255,255,255,.8);
+}
+
+.navbar-brand {
+
+}
+nav a {
+    color: rgba(0,0,0,.9) !important;
+    font-weight: 100;
+    text-shadow: none !important;
+}
+
+.navbar-brand {
+    margin-left: 30px !important;
+}
+
+
+
+
+.about {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
+.about-us-container {
+	background-image: -webkit-gradient(linear,left top, left bottom, from(rgba(0,0,0,.9)),to(rgba(0,0,0,.9)));
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+div .about-us{
+    color: rgba(255,255,254,.9);
+    text-align: center !important;
+    padding: 25px !important;
+}
+.about-us > h4{
+
+    margin-bottom: 13px !important;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
+}
+.about-us > p{
+    text-align: left !important;
+    line-height: 20px;
+}
+
+
+.recent-works {
+    width: 100%;
+    background: rgba(255,255,255,.4);
+    }
+.recent-works > h3.text-center{
+    text-align: center;
+
+}
+.recent-works .image-section {
+	display: inline-block;
+    margin: 0;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.image-section .image{
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 1px rgba(123,123,123,.7);
+    transition: all .3s ease-in;
+}
+.image-section .image:hover{
+    transform: scale(1.1);
+}
+.image>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.btn-lg {
+    border:none !important;
+    box-shadow: none !important;
+    border-radius: 0!important;
+}
+
+.staffs {
+    width: 100%;
+    height: 400px;
+    background-image: -webkit-gradient(linear,left top, left bottom, from(rgba(0,0,0,.9)),to(rgba(0,0,0,.9)));
+
+}
+.staff-list > h3 {
+	color: white;
+}
+.staff-items > img {
+	height: 250px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+}
+.staff-items > h6 {
+    color:white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.detail-id {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.detail-label {
+    display: inline-block;
+    font-size: 2rem;
+
+}
+.modal-footer {
+    width: 100%;
+    height: 50px;
+    background-image: -webkit-gradient(linear,left top, left bottom, from(rgba(0,0,0,.9)),to(rgba(0,0,0,.9)));
+}
+.footer-label > h6 {
+	text-align: center;
+    color: white;
+    font-size: 2rem;
+}
